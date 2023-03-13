@@ -1,5 +1,5 @@
 [package]
-name = "pluggable_interrupt_template"
+name = "demo_game"
 version = "0.3.1"
 authors = ["gjf2a <ferrer@hendrix.edu>"]
 edition = "2021"
