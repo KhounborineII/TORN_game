@@ -1,7 +1,7 @@
 [package]
-name = "demo_game"
+name = "torn_game"
 version = "0.3.1"
-authors = ["gjf2a <ferrer@hendrix.edu>"]
+authors = ["khounborineii <khounborineii@hendrix.edu>"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
