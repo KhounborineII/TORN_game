@@ -1,25 +1,12 @@
-## Pluggable Interrupt Template
+## TORN GAME
 
-This project is a template that one can clone in order to set up
-a [Pluggable Interrupt OS](https://crates.io/crates/pluggable_interrupt_os).
+This project is a basic Kernal game written in Rust based off of a Pluggable Interrupt Template
+by [Gabriel Ferrer](https://github.com/gjf2a/demo_game) using [Pluggable Interrupt OS](https://crates.io/crates/pluggable_interrupt_os).
 
-It demonstrates a simple interactive program that uses both keyboard and timer interrupts. 
-When the user types a viewable key, it is added to a string in the middle of the screen. 
-When the user types an arrow key, the string begins moving in the indicated direction.
+It is a simple game based on the movie TRON. The player is tasked to eliminate enemies in a similar way
+to Snakes. Let the enemies hit your line while you avoid their's and the wall. The more you eliminate,
+the more points you will accumulate!
 
-The program logic is largely in `lib.rs`, in the `LetterMover` struct. The code in 
-`main.rs` creates a `Mutex`-protected `LetterMover` object. The keyboard and timer handlers
-invoke the appropriate methods on the unlocked `LetterMover` object.
+Enjoy the simple experience that is TORN!
 
-This design pattern is highly recommended. Keep `main.rs` minimal, and encapsulate the 
-application logic a struct that is defined in `lib.rs`. For your own applications, you can
-use `LetterMover` as a starting point without modifying `main.rs` very much.
-
-Prior to building this example, be sure to install the following:
-* [Qemu](https://www.qemu.org/)
-* Nightly Rust:
-  * `rustup override set nightly`
-* `llvm-tools-preview`:
-  * `rustup component add llvm-tools-preview`
-* The [bootimage](https://github.com/rust-osdev/bootimage) tool:
-  * `cargo install bootimage`
+## NOTE: STILL WORK IN PROGRESS!!!
