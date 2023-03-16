@@ -1,5 +1,7 @@
 ## TORN GAME
 
+# Version 1.0 Out!
+
 This project is a basic Kernal game written in Rust based off of a Pluggable Interrupt Template
 by [Gabriel Ferrer](https://github.com/gjf2a/demo_game) using [Pluggable Interrupt OS](https://crates.io/crates/pluggable_interrupt_os).
 
@@ -9,4 +11,4 @@ the more points you will accumulate!
 
 Enjoy the simple experience that is TORN!
 
-## NOTE: STILL WORK IN PROGRESS!!!
+
